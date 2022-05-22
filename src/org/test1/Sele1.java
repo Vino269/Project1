@@ -1,6 +1,8 @@
 package org.test1;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Sele1 {
@@ -12,5 +14,6 @@ String title = d.getTitle();
 System.out.println(title);
 String currentUrl = d.getCurrentUrl();
 System.out.println(currentUrl);
+
 }
 }
