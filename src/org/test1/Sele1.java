@@ -12,5 +12,6 @@ String title = d.getTitle();
 System.out.println(title);
 String currentUrl = d.getCurrentUrl();
 System.out.println(currentUrl);
+d.quit();
 }
 }
